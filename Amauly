@@ -37,11 +37,11 @@ Se agrega validación de cédula
 
         # Retorna la información organizada
         return f"""
-        Nombre: {self.nombre}
-        Cédula: {self.cedula}
-        Teléfono: {self.telefono}
-        Correo: {self.correo}
-        Dirección: {self.direccion}
+        Nombre: {self._nombre}
+        Cédula: {self._cedula}
+        Teléfono: {self._telefono}
+        Correo: {self._correo}
+        Dirección: {self._direccion}
         """
 
     #==================================
