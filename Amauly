@@ -23,6 +23,9 @@ Se agrega validación de cédula
 
         # Guarda el teléfono del cliente
         self.telefono = telefono
+# Valida que el correo tenga @
+if "@" not in correo:
+    raise ValueError("Correo inválido")
 
         # Guarda el correo electrónico
         self.correo = correo
